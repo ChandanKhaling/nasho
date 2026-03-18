@@ -29,3 +29,4 @@ Tech Used
  
 Develop and Design 
 Built by Chandan Rai from Sikkim, India.
+Author - Chandan Rai
