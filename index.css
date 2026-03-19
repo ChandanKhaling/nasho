@@ -381,7 +381,7 @@ a {
 /* ===== HERO ===== */
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(imgg/fas.jpg);
+    background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/fas.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -976,4 +976,4 @@ a {
     .footer-logo { width: 30%; }
 
     .nav-links { width: 100%; }
-}
+}   
