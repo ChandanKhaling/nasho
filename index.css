@@ -881,7 +881,7 @@ a {
     .nav-links.active { right: 0; }
 
     .hero {
-        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(imgg/nathula.jpg);
+        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/nathula.jpg);
         background-attachment: scroll;
     }
 
