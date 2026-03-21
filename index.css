@@ -929,17 +929,17 @@ a {
     width: 15px;
     height: 4px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 .c-tl-v {
     position: absolute;
-    top: -4%;
+    top: -4.3%;
     left: 1%;
     width: 4px;
     height: 15px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 /* Top-right */
@@ -950,49 +950,49 @@ a {
     width: 15px;
     height: 4px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 .c-tr-v {
     position: absolute;
-    top: -4%;
+    top: -4.3%;
     right: 0%;
     width: 4px;
     height: 15px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 /* Bottom-left */
 .c-bl-v {
     position: absolute;
-    bottom: 3%;
+    bottom: 2.8%;
     left: -2%;
     width: 4px;
     height: 15px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 .c-bl-h {
     position: absolute;
     bottom: 2%;
-    left: 0.5%;
+    left: 0%;
     width: 15px;
     height: 4px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 /* Bottom-right */
 .c-br-h {
     position: absolute;
-    bottom: 2%;
+    bottom: 2.4%;
     right: 2%;
     width: 15px;
     height: 4px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 .c-br-v {
@@ -1002,7 +1002,7 @@ a {
     width: 4px;
     height: 15px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 50px;
 }
 
 
