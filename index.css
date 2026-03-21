@@ -190,7 +190,7 @@ a {
 /* Divider of section */
 .corner-section {
     position: relative;
-    padding: 6rem 7rem;
+    
 }
 
 /* Top-left  */
@@ -238,7 +238,7 @@ a {
 /* Bottom-left */
 .c-bl-h {
     position: absolute;
-    bottom: -5%;
+    bottom: 2%;
     left: 2%;
     width: 15px;
     height: 4px;
@@ -248,7 +248,7 @@ a {
 
 .c-bl-v {
     position: absolute;
-    bottom: -4.5%;
+    bottom: 3%;
     left: 1.5%;
     width: 4px;
     height: 15px;
@@ -259,7 +259,7 @@ a {
 /* Bottom-right */
 .c-br-h {
     position: absolute;
-    bottom: -5%;
+    bottom: 2%;
     right: -20%;
     width: 15px;
     height: 4px;
@@ -269,7 +269,7 @@ a {
 
 .c-br-v {
     position: absolute;
-    bottom: -4.5%;
+    bottom: 3%;
     right: -20.5%;
     width: 4px;
     height: 15px;
@@ -280,14 +280,26 @@ a {
 /* Section index label [ 01 ] */
 .section-idx {
     position: absolute;
-    top: -10px;
-    left: 130px;
+    top: 0 ;
+    left: 60px;
     font-size: 2rem;
     color: var(--gray-color);
     letter-spacing: 2px;
     font-family: monospace;
 }
 
+/* horizantel line*/
+.vu {
+    display: block;
+    margin-left: 8.5%;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 80vw;
+    height: 2.2px;
+    border: none;
+    background-color: #939596;
+    margin-bottom: -2%;
+}
 /* ===== NAVBAR ===== */
 .navbar {
     display: flex;
@@ -458,6 +470,7 @@ a {
 .about-section {
     padding: var(--section-spacing) 0;
     background-color: var(--bg-section);
+ 
 }
 
 .about-content {
@@ -475,8 +488,8 @@ a {
 
 .section-header h2 {
     text-align: center;
-    margin-left: -4%;
-    margin-top: -7%;
+    margin-left: 0%;
+    margin-top: 0%;
     color: #1A2730;
 }
 
@@ -486,32 +499,15 @@ a {
 }
 
 .about-text p {
-    margin-bottom: 3rem;
     font-size: 1.8rem;
     color: #1A2730;
-}
-
-.vu {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6%;
-    margin-bottom: -10%;
-    width: 83vw;
-    height: 2.2px;
-    border: none;
-    background-color: #939596;
 }
 
 /* ===== CULTURE SECTION ===== */
 .culture-section {
     padding: var(--section-spacing) 0;
     background-color: var(--bg-section-alt);
-}
-
-.culture-section h2 {
-    margin-left: -10%;
-    margin-top: -7%;
+    
 }
 
 .cul-bbt {
@@ -602,21 +598,17 @@ a {
 .fact-section {
     padding: var(--section-spacing) 0;
     background-color: var(--bg-section);
-    padding-top: 3%;
-    padding-bottom: 5%;
-}
-
-.fact-section h2 {
-    margin-left: 3%;
-    margin-top: -8%;
 }
 
 .sikkim-fact {
     margin-left: 10%;
 }
 
+.sikkim-fact{
+    padding-top: 2%;
+}
 .sikkim-fact p {
-    margin-top: -3%;
+    margin-top: 0%;
     font-size: 1.8rem;
     margin-right: 9%;
     color: var(--text-main);
@@ -909,67 +901,125 @@ a {
         display: block;
     }
 
-    /* Top-left: */
-    .c-tl-h {
-        top: -6.5%;
-        left: -3%;
-        height: 3px;
-        border-radius: 2px;
-    }
 
-    .c-tl-v {
-        top: -6%;
-        left: -4%;
-        width: 3px;
-        border-radius: 2px;
-    }
+/* index [1]*/
+    .section-idx {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -12%;
+    font-size: 2rem;
+    color: var(--gray-color);
+    letter-spacing: 2px;
+    font-family: monospace;
+   }
 
-    /* Top-right: */
-    .c-tr-h {
-        top: -6.5%;
-        right: -3%;
-        height: 3px;
-        border-radius: 2px;
-    }
+  
 
-    .c-tr-v {
-        top: -6%;
-        right: -4%;
-        width: 3px;
-        border-radius: 2px;
-    }
+/* Divider of section */
+.corner-section {
+    position: relative;
+    
+}
 
-    /* Bottom-left: */
-    .c-bl-v {
-        left: -3%;
-        width: 3px;
-        border-radius: 2px;
-    }
+/* Top-left  */
+.c-tl-h {
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    width: 15px;
+    height: 4px;
+    background: #939596;
+    border-radius: 15%;
+}
 
-    .c-bl-h {
-        left: -1.5%;
-        height: 3.2px;
-        border-radius: 2px;
-    }
+.c-tl-v {
+    position: absolute;
+    top: -4%;
+    left: 1%;
+    width: 4px;
+    height: 15px;
+    background: #939596;
+    border-radius: 15%;
+}
 
-    /* Bottom-right: shift 1px */
-    .c-br-v {
-        right: -4%;
-        width: 3px;
-        border-radius: 2px;
-    }
+/* Top-right */
+.c-tr-h {
+    position: absolute;
+    top: -5%;
+    right: 1%;
+    width: 15px;
+    height: 4px;
+    background: #939596;
+    border-radius: 15%;
+}
 
-    .c-br-h {
-        right: -2.4%;
-        height: 3.2px;
-        border-radius: 2px;
-    }
+.c-tr-v {
+    position: absolute;
+    top: -4%;
+    right: 0%;
+    width: 4px;
+    height: 15px;
+    background: #939596;
+    border-radius: 15%;
+}
 
-    .vu{
-        width: 65vw;
-        margin-left: -14%;
-        margin-bottom: -50%;
-    }
+/* Bottom-left */
+.c-bl-v {
+    position: absolute;
+    bottom: 3%;
+    left: -2%;
+    width: 4px;
+    height: 15px;
+    background: #939596;
+    border-radius: 15%;
+}
+
+.c-bl-h {
+    position: absolute;
+    bottom: 2%;
+    left: 0.5%;
+    width: 15px;
+    height: 4px;
+    background: #939596;
+    border-radius: 15%;
+}
+
+/* Bottom-right */
+.c-br-h {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 15px;
+    height: 4px;
+    background: #939596;
+    border-radius: 15%;
+}
+
+.c-br-v {
+    position: absolute;
+    bottom: 3%;
+    right: 0.1%;
+    width: 4px;
+    height: 15px;
+    background: #939596;
+    border-radius: 15%;
+}
+
+
+
+/* horizantel line*/
+.vu {
+    display: block;
+    margin-left: 8.5%;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 70vw;
+    height: 2.2px;
+    border: none;
+    background-color: #939596;
+    margin-bottom: -2%;
+}
+
 
     .logo h1 {
         padding-left: 2rem;
@@ -1027,10 +1077,8 @@ a {
     }
 
     /* about section first section  div */
-
-    .section-idx{
-        margin-top: -10%; 
-        margin-left: -40%;
+    .about-section{
+        margin-bottom: -8%;
     }
 
     .about-section h2{ 
@@ -1043,14 +1091,25 @@ a {
         margin-left: 0;
     }
 
+    .culture-section a{
+        text-align: center;
+        width: 200px;
+        margin-left: 17%;
+    }
+
+    .festivals-grid{
+        margin-bottom: 20%;
+    }
+
     .sikkim-fact {
         margin-left: 5%;
         margin-right: 5%;
+        
     }
 
     .sikkim-fact p {
-        height: auto;
         margin-right: 0;
+        margin-bottom: 3%;
     }
 
     .sikkim-fact img {
@@ -1128,7 +1187,7 @@ a {
 /* ===== RESPONSIVE — SMALL MOBILE (max 576px) ===== */
 @media (max-width: 576px) {
     html {
-        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(imgg/nathula.jpg);
+        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/nathula.jpg);
         background-attachment: fixed;
         font-size: 52%;
     }
@@ -1156,7 +1215,7 @@ a {
     }
 
     .support-section {
-        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(imgg/vila.jpg);
+        background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/vila.jpg);
         background-attachment: fixed;
     }
 
