@@ -1127,6 +1127,10 @@ a {
         text-align: center;
     }
 
+    .fact-section img{
+        margin-top: 35%;
+    }
+
     .support-section {
         background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/vila.jpg);
         background-attachment: fixed;
