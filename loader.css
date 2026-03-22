@@ -1,0 +1,92 @@
+/* ===== LOADER ===== */
+#loader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* The two halves that split open to reveal the page */
+#loader .panel-top,
+#loader .panel-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #111;
+    transition: transform 0.8s cubic-bezier(0.76, 0, 0.24, 1);
+    z-index: 2;
+}
+
+#loader .panel-top  { top: 0; }
+#loader .panel-bottom { bottom: 0; }
+
+#loader.split .panel-top    { transform: translateY(-100%); }
+#loader.split .panel-bottom { transform: translateY(100%); }
+
+/* Counter number */
+.loader-count {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(6rem, 18vw, 16rem);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -4px;
+    z-index: 3;
+    transition: opacity 0.3s ease;
+    user-select: none;
+}
+
+/* Progress line */
+.loader-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #fff;
+    z-index: 4;
+    transition: width linear;
+}
+
+/* Site name bottom-left */
+.loader-brand {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 4rem;
+    font-family: 'Nasalization';
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    color: rgba(255,255,255,0.35);
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+/* Tagline bottom-right */
+.loader-tag {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,0.25);
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+/* After split — hide loader completely */
+#loader.done {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .loader-brand { left: 2rem; bottom: 2.5rem; font-size: 1.2rem; }
+    .loader-tag   { right: 2rem; bottom: 2.5rem; font-size: 1rem; }
+}
