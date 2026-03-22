@@ -479,7 +479,21 @@ a {
     padding-left: 25%;
 }
 
-.hero-content h1 {
+
+@font-face {
+    font-family: 'Nasalization';
+    src: url('fonts/nasalization\ rg.ttf') format('woff2');
+}
+
+.logo h1 {
+    color: #ffffff;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-family: 'Nasalization';
+}
+
+.hero h1{
     font-size: 6.5rem;
     letter-spacing: 5px;
     font-weight: 900;
@@ -827,8 +841,8 @@ a {
     transform: translateY(-3px);
 }
 
-.footer-bottom {
-    padding-left: 17%;
+.footers-bottom {
+    padding-left: 12%;
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid var(--border-color);
@@ -840,7 +854,6 @@ a {
     letter-spacing: 0.5px;
     font-family: 'Silkscreen', cursive;
 }
-
 
 
 /* ===== RESPONSIVE — TABLET (max 992px) ===== */
@@ -1217,7 +1230,7 @@ a {
         justify-content: flex-start;
     }
 
-    .footer-bottom {
+    .footers-bottom {
         padding-left: 0;
     }
 }
