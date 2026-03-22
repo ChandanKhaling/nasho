@@ -187,10 +187,27 @@ a {
     width: 100%;
 }
 
+/* ===== CORNER BLINK ANIMATIONS ===== */
+@keyframes blink-tl {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+@keyframes blink-tr {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+@keyframes blink-bl {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+@keyframes blink-br {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+
 /* Divider of section */
 .corner-section {
     position: relative;
-    
 }
 
 /* Top-left  */
@@ -202,6 +219,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-tl 1.1s ease-in-out infinite;
 }
 
 .c-tl-v {
@@ -212,6 +230,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-tl 1.1s ease-in-out infinite;
 }
 
 /* Top-right */
@@ -223,6 +242,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 .c-tr-v {
@@ -233,6 +253,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 /* Bottom-left */
@@ -244,6 +265,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 .c-bl-v {
@@ -254,6 +276,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 /* Bottom-right */
@@ -265,6 +288,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-br 1.5s ease-in-out infinite;
 }
 
 .c-br-v {
@@ -275,6 +299,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 15%;
+    animation: blink-br 1.5s ease-in-out infinite;
 }
 
 /* Section index label [ 01 ] */
@@ -918,7 +943,6 @@ a {
 /* Divider of section */
 .corner-section {
     position: relative;
-    
 }
 
 /* Top-left  */
@@ -930,6 +954,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-tl 1.1s ease-in-out infinite;
 }
 
 .c-tl-v {
@@ -940,6 +965,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-tl 1.1s ease-in-out infinite;
 }
 
 /* Top-right */
@@ -951,6 +977,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 .c-tr-v {
@@ -961,6 +988,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 /* Bottom-left */
@@ -972,6 +1000,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 .c-bl-h {
@@ -982,6 +1011,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 /* Bottom-right */
@@ -993,6 +1023,7 @@ a {
     height: 4px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-br 1.5s ease-in-out infinite;
 }
 
 .c-br-v {
@@ -1003,6 +1034,7 @@ a {
     height: 15px;
     background: #939596;
     border-radius: 50px;
+    animation: blink-br 1.5s ease-in-out infinite;
 }
 
 
@@ -1091,11 +1123,7 @@ a {
         margin-left: 0;
     }
 
-    .culture-section a{
-        text-align: center;
-        width: 200px;
-        margin-left: 17%;
-    }
+   
 
     .festivals-grid{
         margin-bottom: 20%;
@@ -1121,15 +1149,21 @@ a {
 
     .cul-bbt {
         margin-top: 10%;
-        margin-left: 0;
+        margin-left: 5%;
         margin-right: 0;
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 
     .fact-section img{
         margin-top: 35%;
     }
+
+
+    .overlay {
+        opacity: 1;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
+   }
 
     .support-section {
         background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(4, 9, 30, 0.7)), url(images/vila.jpg);
