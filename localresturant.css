@@ -213,10 +213,10 @@ a {
 /* Top-left  */
 .c-tl-h {
     position: absolute;
-    top: 1%;
-    left: 0%;
-    width: 15px;
-    height: 4px;
+    top: 7px;
+    left: 7px;
+    width: 20px;
+    height: 5px;
     background:  #939596;
     border-radius: 5px;
     animation: blink-tl 1.1s ease-in-out infinite;
@@ -224,10 +224,10 @@ a {
 
 .c-tl-v {
     position: absolute;
-    top: 18px;
-    left: -6px;
-    width: 4px;
-    height: 15px;
+    top: 7px;
+    left: 0;
+    width: 5px;
+    height: 20px;
     background:  #939596;
     border-radius: 5px;
     animation: blink-tl 1.1s ease-in-out infinite;
@@ -305,12 +305,13 @@ a {
 /* Section index label [ 01 ] */
 .section-idx {
     position: absolute;
-    top: 1%;
-    left: 60px;
-    font-size: 2rem;
+    top: 4px;
+    left: 34px;
+    font-size: 1.6rem;
     color: var(--gray-color);
     letter-spacing: 2px;
     font-family: monospace;
+    line-height: 1;
 }
 
 /* horizantel line*/
@@ -439,7 +440,7 @@ a {
     background-color: #151615;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown.active .dropdown-menu {
     display: block;
 }
 
@@ -753,7 +754,7 @@ a {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         background-color: #0d1117;
         flex-direction: column;
@@ -763,7 +764,7 @@ a {
         z-index: 999;
         padding-top: 20%;
         padding-left: 8%;
-        gap: 0.5rem;
+        gap: 2.5rem;
         box-shadow: -5px 0 20px rgba(0, 0, 0, 0.4);
     }
 
@@ -773,8 +774,8 @@ a {
 
     .nav-links a {
         color: #ffffff;
-        font-size: 1.8rem;
-        padding: 1rem 0;
+        font-size: 2rem;
+        padding: 1rem, 0;
     }
 
     /* Mobile dropdowns sit inline */
@@ -788,6 +789,12 @@ a {
 
     .dropdown.active .dropdown-menu {
         display: block;
+    }
+
+    .dropdown-menu li a {
+        font-size: 2rem;
+        color: rgba(255,255,255,0.75);
+        padding: 1rem, 0;
     }
 
     .logo h1 {
@@ -823,14 +830,87 @@ a {
         font-size: 1.7rem;
     }
 
-    /* ----- Corner section ----- */
+    /* ----- Corner section — pixel-precise positions ----- */
     .corner-section {
-        padding: 4rem 2.5rem;
+        padding: 3.5rem 2rem;
     }
 
+    /* top-left stays locked at absolute px */
+    .c-tl-h {
+        top: 5px;
+        left: 5px;
+        width: 18px;
+        height: 4px;
+    }
+
+    .c-tl-v {
+        top: 9px;
+        left: 0;
+        width: 4px;
+        height: 18px;
+    }
+
+    /* top-right */
+    .c-tr-h {
+        top: 5px;
+        right: 4px;
+        width: 18px;
+        height: 4px;
+    }
+
+    .c-tr-v {
+        top: 9px;
+        right: 0;
+        width: 4px;
+        height: 18px;
+    }
+
+    /* bottom-left */
+    .c-bl-h {
+        bottom: 5px;
+        left: 5px;
+        width: 18px;
+        height: 4px;
+    }
+
+    .c-bl-v {
+        bottom: 9px;
+        left: 0;
+        width: 4px;
+        height: 18px;
+    }
+
+    /* bottom-right */
+    .c-br-h {
+        bottom: 5px;
+        right: 5px;
+        width: 18px;
+        height: 4px;
+    }
+
+    .c-br-v {
+        bottom: 9px;
+        right: 0;
+        width: 4px;
+        height: 18px;
+    }
+
+    /* index label sits right after the corner tick */
     .section-idx {
-        left: 60px;
-        font-size: 1.6rem;
+        margin-top: 6%;
+        left: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+     .corner-section h2 {
+        font-size: 2.4rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .corner-section h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
     }
 
     /* ----- Filter links — wrap nicely ----- */
@@ -861,79 +941,6 @@ a {
 
     .rest-desc {
         font-size: 1.3rem;
-    }
-}
-
-/* ===== MOBILE — max 768px ===== */
-
-@media (max-width:  768px) {
-
-    html {
-        font-size: 52%;
-    }
-
-    .nav-links {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 100%;
-        height: 100vh;
-        background-color: #0d1117;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        transition: right 0.3s ease;
-        z-index: 999;
-        padding-top: 20%;
-        padding-left: 8%;
-        font-size: 25px;
-        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.4);
-    }
-     .nav-links a {
-        color: #ffffff;
-    }
-
-    .nav-links.active {
-        right: 0;
-    }
-
-    .container {
-        margin: 0 auto;
-    }
-
-    /* ----- Hero ----- */
-    .hero-content h1 {
-        font-size: 3.2rem;
-        letter-spacing: 1px;
-    }
-
-    .hero-content h3 {
-        font-size: 1.6rem;
-    }
-
-    .hero-content p {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
-
-    /* ----- Corner section ----- */
-    .corner-section {
-        padding: 3.5rem 2rem;
-    }
-
-    .section-idx {
-        left: 45px;
-        font-size: 1.4rem;
-    }
-
-    .corner-section h2 {
-        font-size: 2.4rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .corner-section h1 {
-        font-size: 3rem;
-        margin-bottom: 2rem;
     }
 
     /* ----- Filter links — full width pills ----- */
@@ -966,4 +973,5 @@ a {
         font-size: 11px;
         padding: 0 16px;
     }
+
 }
