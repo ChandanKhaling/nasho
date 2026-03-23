@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASHO | Local Restaurant</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="localresturant.css">
+    <link rel="icon" href="./imgg/loco.png">
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <h1>NASHO</h1>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li class="dropdown">
+                <a href="#">Places +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="localresturant.html">Local Restaurant</a></li>
+                    <li><a href="#">Best Place to Travel</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Food +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Recipe</a></li>
+                    <li><a href="#">Local Food Store</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">People +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Musician</a></li>
+                    <li><a href="#">Local Faces</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Art +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Explore Cultures</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h3>Showcasing Sikkim</h3>
+                <h1>Local Restaurants<br>of Sikkim</h1>
+                <p>From steaming momos in hillside dhabas to traditional Sikkimese thali in family kitchens, explore the
+                    authentic flavours that define this Himalayan land.</p>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+        <div class="marquee-inner">
+            <div class="m-track">
+                <span class="m-item">Momo</span><span class="m-sep">✦</span>
+                <span class="m-item">मोमो</span><span class="m-sep">✦</span>
+                <span class="m-item">Thukpa</span><span class="m-sep">✦</span>
+                <span class="m-item">थुक्पा</span><span class="m-sep">✦</span>
+                <span class="m-item">Gundruk</span><span class="m-sep">✦</span>
+                <span class="m-item">गुन्द्रुक</span><span class="m-sep">✦</span>
+                <span class="m-item">Sel Roti</span><span class="m-sep">✦</span>
+                <span class="m-item">सेल रोटी</span><span class="m-sep">✦</span>
+                <span class="m-item">Chang</span><span class="m-sep">✦</span>
+                <span class="m-item">छ्याङ</span><span class="m-sep">✦</span>
+                <span class="m-item">Chhurpi</span><span class="m-sep">✦</span>
+                <span class="m-item">छुर्पी</span><span class="m-sep">✦</span>
+                <span class="m-item">Dhero</span><span class="m-sep">✦</span>
+                <span class="m-item">ढिडो</span><span class="m-sep">✦</span>
+
+            </div>
+            <div class="m-track" aria-hidden="true">
+                <span class="m-item">Momo</span><span class="m-sep">✦</span>
+                <span class="m-item">मोमो</span><span class="m-sep">✦</span>
+                <span class="m-item">Thukpa</span><span class="m-sep">✦</span>
+                <span class="m-item">थुक्पा</span><span class="m-sep">✦</span>
+                <span class="m-item">Gundruk</span><span class="m-sep">✦</span>
+                <span class="m-item">गुन्द्रुक</span><span class="m-sep">✦</span>
+                <span class="m-item">Sel Roti</span><span class="m-sep">✦</span>
+                <span class="m-item">सेल रोटी</span><span class="m-sep">✦</span>
+                <span class="m-item">Chang</span><span class="m-sep">✦</span>
+                <span class="m-item">छ्याङ</span><span class="m-sep">✦</span>
+                <span class="m-item">Chhurpi</span><span class="m-sep">✦</span>
+                <span class="m-item">छुर्पी</span><span class="m-sep">✦</span>
+                <span class="m-item">Dhero</span><span class="m-sep">✦</span>
+                <span class="m-item">ढिडो</span><span class="m-sep">✦</span>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="Showcase">
+        <div class="container">
+
+            <section class="corner-section"> <!-- DIVIDER  -->
+                <div class="c-tl-h"></div>
+                <div class="c-tl-v"></div>
+                <div class="c-tr-h"></div>
+                <div class="c-tr-v"></div>
+                <span class="section-idx">[01]</span>
+
+                <h2> Where to Eath</h2>
+                <h1>Featured Restaurants</h1>
+
+                <div class="Links">
+                    <a href="#">All</a>
+                    <a href="#">Gangtok</a>
+                    <a href="#">Namchi</a>
+                    <a href="#">Pelling</a>
+                    <a href="#">Veg Only</a>
+                </div>
+
+                <div class="restaurant-grid">
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/loshar.jpg" alt="Taste of Sikkim">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Taste of Sikkim</div>
+                            <div class="rest-cuisine">Sikkimese · Tibetan</div>
+                            <p class="rest-desc">Traditional thali and momos served in a warm family setting.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Veg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/pemayangtse.jpg" alt="The Namgyal Kitchen">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">The Namgyal Kitchen</div>
+                            <div class="rest-cuisine">Sikkimese · Local</div>
+                            <p class="rest-desc">Generations-old recipes passed down through the Namgyal household.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Local</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/sikkim.jpg" alt="Tashi Dhaba">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Tashi Dhaba</div>
+                            <div class="rest-cuisine">Nepali · Street Food</div>
+                            <p class="rest-desc">Simple honest dhaba food — best sel roti in South Sikkim.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Namchi</span>
+                                <span class="tag-pill">Street</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/gh.jpg" alt="Pelling View Cafe">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Pelling View Cafe</div>
+                            <div class="rest-cuisine">Fusion · Himalayan</div>
+                            <p class="rest-desc">Modern takes on Sikkimese classics with panoramic Kanchenjunga views.
+                            </p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Pelling</span>
+                                <span class="tag-pill">View</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/kirat.jpeg" alt="House of Bamboo">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">House of Bamboo</div>
+                            <div class="rest-cuisine">Tribal · Sikkimese</div>
+                            <p class="rest-desc">Authentic tribal food featuring bamboo shoots and local herbs.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Tribal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/tamang.jpg" alt="Nimtho Restaurant">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Nimtho Restaurant</div>
+                            <div class="rest-cuisine">Sikkimese · Authentic</div>
+                            <p class="rest-desc">One of Gangtok's most loved spots for authentic Sikkimese cuisine.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Popular</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/map.png" alt="Sonam's Kitchen">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Sonam's Kitchen</div>
+                            <div class="rest-cuisine">Breakfast · Local</div>
+                            <p class="rest-desc">Best local breakfast spot in Pelling — hot momos and butter tea.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Pelling</span>
+                                <span class="tag-pill">Breakfast</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/loshar.jpg" alt="Pariwar Dhaba">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Pariwar Dhaba</div>
+                            <div class="rest-cuisine">Nepali · Home Style</div>
+                            <p class="rest-desc">Home-style Nepali food cooked fresh every day by the family.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Namchi</span>
+                                <span class="tag-pill">Veg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/stup.png" alt="Roll House">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Roll House</div>
+                            <div class="rest-cuisine">Street Food · Local</div>
+                            <p class="rest-desc">Iconic street-style rolls and local snacks loved by Gangtok locals.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Street</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/vila.jpg" alt="Cafe Live and Loud">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Cafe Live &amp; Loud</div>
+                            <div class="rest-cuisine">Fusion · Local</div>
+                            <p class="rest-desc">Lively cafe with local fusion food, live music, and mountain vibes.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Cafe</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="c-bl-h"></div>
+                <div class="c-bl-v"></div>
+                <div class="c-br-h"></div>
+                <div class="c-br-v"></div>
+                 <hr class="vu">
+            </section>
+
+        </div>
+
+
+    </section>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+    <script>
+
+ // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link, except for dropdown toggles
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                // If the link has a dropdown menu next to it
+                if (link.nextElementSibling && link.nextElementSibling.classList.contains('dropdown-menu')) {
+                    e.preventDefault();
+
+                    // Close other active dropdowns
+                    document.querySelectorAll('.dropdown.active').forEach(d => {
+                        if (d !== link.parentElement) d.classList.remove('active');
+                    });
+
+                    link.parentElement.classList.toggle('active');
+                    return; // Do not close the mobile menu
+                }
+
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // Close dropdowns if clicked outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.dropdown')) {
+                document.querySelectorAll('.dropdown.active').forEach(dropdown => {
+                    dropdown.classList.remove('active');
+                });
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+
+        // Restaurant Filtering Logic
+        const filterLinks = document.querySelectorAll('.Links a');
+        const restCards = document.querySelectorAll('.rest-card');
+
+        // Set "All" to be active by default
+        if (filterLinks.length > 0) filterLinks[0].style.backgroundColor = '#1A2730';
+
+        filterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                // Get the filter term
+                let filterText = link.textContent.trim();
+                // Match the label "Veg Only" to the actual tag "Veg"
+                if (filterText === "Veg Only") filterText = "Veg";
+
+                // Reset styling and set currently active link
+                filterLinks.forEach(l => l.style.backgroundColor = '');
+                link.style.backgroundColor = '#1A2730';
+
+                // Filter cards based on their tag pills
+                restCards.forEach(card => {
+                    if (filterText === "All") {
+                        card.style.display = 'flex';
+                        return;
+                    }
+
+                    const tags = Array.from(card.querySelectorAll('.tag-pill')).map(t => t.textContent.trim());
+
+                    if (tags.includes(filterText)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
