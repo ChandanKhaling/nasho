@@ -275,7 +275,7 @@ a {
     width: 4px;
     height: 15px;
     background: #939596;
-    border-radius: 15%;
+    border-radius: 15% ;
     animation: blink-bl 2.3s ease-in-out infinite;
 }
 
