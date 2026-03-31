@@ -472,7 +472,7 @@ a {
 /* ===== HERO ===== */
 .hero {
     height: 93vh;
-    background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(52, 53, 59, 0.7)), url(imgg/Cozy\ Rustic.png);
+    background-image: linear-gradient(rgba(22, 26, 41, 0.7), rgba(52, 53, 59, 0.7)), url(images/Cozy\ Rustic.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
