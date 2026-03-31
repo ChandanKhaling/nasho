@@ -220,7 +220,6 @@ a {
     background:  #939596;
     border-radius: 5px;
     animation: blink-tl 1.1s ease-in-out infinite;
-    animation-delay: 0s;
 }
 
 .c-tl-v {
@@ -232,7 +231,6 @@ a {
     background:  #939596;
     border-radius: 5px;
     animation: blink-tl 1.1s ease-in-out infinite;
-    animation-delay: 0.15s;
 }
 
 /* Top-right */
@@ -244,8 +242,7 @@ a {
     height: 4px;
     background:  #939596;
     border-radius: 5px;
-    animation: blink-tr 1.3s ease-in-out infinite;
-    animation-delay: 0.4s;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 .c-tr-v {
@@ -256,8 +253,7 @@ a {
     height: 15px;
     background:  #939596;
     border-radius: 5px;
-    animation: blink-tr 1.3s ease-in-out infinite;
-    animation-delay: 0.55s;
+    animation: blink-tr 1.7s ease-in-out infinite;
 }
 
 /* Bottom-left */
@@ -269,8 +265,7 @@ a {
     height: 4px;
     background:  #939596;
     border-radius: 5px;
-    animation: blink-bl 0.9s ease-in-out infinite;
-    animation-delay: 0.8s;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 .c-bl-v {
@@ -281,8 +276,7 @@ a {
     height: 15px;
     background:  #939596;
     border-radius: 5px;
-    animation: blink-bl 0.9s ease-in-out infinite;
-    animation-delay: 0.95s;
+    animation: blink-bl 2.3s ease-in-out infinite;
 }
 
 /* Bottom-right */
@@ -295,7 +289,6 @@ a {
     background:  #939596;
     border-radius: 5px;
     animation: blink-br 1.5s ease-in-out infinite;
-    animation-delay: 1.2s;
 }
 
 .c-br-v {
@@ -307,7 +300,6 @@ a {
     background:  #939596;
     border-radius: 5px;
     animation: blink-br 1.5s ease-in-out infinite;
-    animation-delay: 1.35s;
 }
 
 /* Section index label [ 01 ] */
