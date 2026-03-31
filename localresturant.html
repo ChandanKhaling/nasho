@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASHO | Local Restaurant</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="localresturant.css">
+    <link rel="icon" href="./imgg/loco.png">
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <h1>NASHO</h1>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li class="dropdown">
+                <a href="#">Places +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="localresturant.html">Local Restaurant</a></li>
+                    <li><a href="#">Best Place to Travel</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Food +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Recipe</a></li>
+                    <li><a href="#">Local Food Store</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">People +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Musician</a></li>
+                    <li><a href="#">Local Faces</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Art +</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Explore Cultures</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h3>Showcasing Sikkim</h3>
+                <h1>Local Restaurants<br>of Sikkim</h1>
+                <p>From steaming momos in hillside dhabas to traditional Sikkimese thali in family kitchens, explore the
+                    authentic flavours that define this Himalayan land.</p>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+        <div class="marquee-inner">
+            <div class="m-track">
+                <span class="m-item">Momo</span><span class="m-sep">✦</span>
+                <span class="m-item">मोमो</span><span class="m-sep">✦</span>
+                <span class="m-item">Thukpa</span><span class="m-sep">✦</span>
+                <span class="m-item">थुक्पा</span><span class="m-sep">✦</span>
+                <span class="m-item">Gundruk</span><span class="m-sep">✦</span>
+                <span class="m-item">गुन्द्रुक</span><span class="m-sep">✦</span>
+                <span class="m-item">Sel Roti</span><span class="m-sep">✦</span>
+                <span class="m-item">सेल रोटी</span><span class="m-sep">✦</span>
+                <span class="m-item">Chang</span><span class="m-sep">✦</span>
+                <span class="m-item">छ्याङ</span><span class="m-sep">✦</span>
+                <span class="m-item">Chhurpi</span><span class="m-sep">✦</span>
+                <span class="m-item">छुर्पी</span><span class="m-sep">✦</span>
+                <span class="m-item">Dhero</span><span class="m-sep">✦</span>
+                <span class="m-item">ढिडो</span><span class="m-sep">✦</span>
+
+            </div>
+            <div class="m-track" aria-hidden="true">
+                <span class="m-item">Momo</span><span class="m-sep">✦</span>
+                <span class="m-item">मोमो</span><span class="m-sep">✦</span>
+                <span class="m-item">Thukpa</span><span class="m-sep">✦</span>
+                <span class="m-item">थुक्पा</span><span class="m-sep">✦</span>
+                <span class="m-item">Gundruk</span><span class="m-sep">✦</span>
+                <span class="m-item">गुन्द्रुक</span><span class="m-sep">✦</span>
+                <span class="m-item">Sel Roti</span><span class="m-sep">✦</span>
+                <span class="m-item">सेल रोटी</span><span class="m-sep">✦</span>
+                <span class="m-item">Chang</span><span class="m-sep">✦</span>
+                <span class="m-item">छ्याङ</span><span class="m-sep">✦</span>
+                <span class="m-item">Chhurpi</span><span class="m-sep">✦</span>
+                <span class="m-item">छुर्पी</span><span class="m-sep">✦</span>
+                <span class="m-item">Dhero</span><span class="m-sep">✦</span>
+                <span class="m-item">ढिडो</span><span class="m-sep">✦</span>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="Showcase">
+        <div class="container">
+
+            <section class="corner-section"> <!-- DIVIDER  -->
+                <div class="c-tl-h"></div>
+                <div class="c-tl-v"></div>
+                <div class="c-tr-h"></div>
+                <div class="c-tr-v"></div>
+                <span class="section-idx">[01]</span>
+
+                <h2> Where to Eath</h2>
+                <h1>Featured Restaurants</h1>
+
+                <div class="Links">
+                    <a href="#">All</a>
+                    <a href="#">Gangtok</a>
+                    <a href="#">Namchi</a>
+                    <a href="#">Pelling</a>
+                    <a href="#">Veg Only</a>
+                </div>
+
+                <div class="restaurant-grid">
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/loshar.jpg" alt="Taste of Sikkim">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Taste of Sikkim</div>
+                            <div class="rest-cuisine">Sikkimese · Tibetan</div>
+                            <p class="rest-desc">Traditional thali and momos served in a warm family setting.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Veg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/pemayangtse.jpg" alt="The Namgyal Kitchen">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">The Namgyal Kitchen</div>
+                            <div class="rest-cuisine">Sikkimese · Local</div>
+                            <p class="rest-desc">Generations-old recipes passed down through the Namgyal household.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Local</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/sikkim.jpg" alt="Tashi Dhaba">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Tashi Dhaba</div>
+                            <div class="rest-cuisine">Nepali · Street Food</div>
+                            <p class="rest-desc">Simple honest dhaba food — best sel roti in South Sikkim.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Namchi</span>
+                                <span class="tag-pill">Street</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/gh.jpg" alt="Pelling View Cafe">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Pelling View Cafe</div>
+                            <div class="rest-cuisine">Fusion · Himalayan</div>
+                            <p class="rest-desc">Modern takes on Sikkimese classics with panoramic Kanchenjunga views.
+                            </p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Pelling</span>
+                                <span class="tag-pill">View</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/kirat.jpeg" alt="House of Bamboo">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">House of Bamboo</div>
+                            <div class="rest-cuisine">Tribal · Sikkimese</div>
+                            <p class="rest-desc">Authentic tribal food featuring bamboo shoots and local herbs.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Tribal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/tamang.jpg" alt="Nimtho Restaurant">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Nimtho Restaurant</div>
+                            <div class="rest-cuisine">Sikkimese · Authentic</div>
+                            <p class="rest-desc">One of Gangtok's most loved spots for authentic Sikkimese cuisine.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Popular</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/map.png" alt="Sonam's Kitchen">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Sonam's Kitchen</div>
+                            <div class="rest-cuisine">Breakfast · Local</div>
+                            <p class="rest-desc">Best local breakfast spot in Pelling — hot momos and butter tea.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Pelling</span>
+                                <span class="tag-pill">Breakfast</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/loshar.jpg" alt="Pariwar Dhaba">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Pariwar Dhaba</div>
+                            <div class="rest-cuisine">Nepali · Home Style</div>
+                            <p class="rest-desc">Home-style Nepali food cooked fresh every day by the family.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Namchi</span>
+                                <span class="tag-pill">Veg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/stup.png" alt="Roll House">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Roll House</div>
+                            <div class="rest-cuisine">Street Food · Local</div>
+                            <p class="rest-desc">Iconic street-style rolls and local snacks loved by Gangtok locals.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Street</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rest-card">
+                        <div class="rest-img">
+                            <img src="imgg/vila.jpg" alt="Cafe Live and Loud">
+
+                        </div>
+                        <div class="rest-body">
+                            <div class="rest-name">Cafe Live &amp; Loud</div>
+                            <div class="rest-cuisine">Fusion · Local</div>
+                            <p class="rest-desc">Lively cafe with local fusion food, live music, and mountain vibes.</p>
+                            <div class="rest-tags">
+                                <span class="tag-pill">Gangtok</span>
+                                <span class="tag-pill">Cafe</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="c-bl-h"></div>
+                <div class="c-bl-v"></div>
+                <div class="c-br-h"></div>
+                <div class="c-br-v"></div>
+            </section>
+            <hr class="vu">
+
+        </div>
+    </section>
+
+    <!-- ===== CULTURE BEHIND THE FOOD ===== -->
+    <section class="culture-section">
+        <div class="container">
+            <section class="corner-section">
+                <div class="c-tl-h"></div>
+                <div class="c-tl-v"></div>
+                <div class="c-tr-h"></div>
+                <div class="c-tr-v"></div>
+                <span class="section-idx">[02]</span>
+
+                <div class="culture-layout">
+
+                    <!-- LEFT: Text -->
+                    <div class="culture-text">
+                        <h2>The Roots of Every Dish</h2>
+                        <h1>Culture Behind the Food</h1>
+                        <p class="culture-intro">Sikkim's cuisine is a living mosaic woven from three distinct communities — each carrying centuries of tradition onto the plate.</p>
+
+                        <div class="culture-item">
+                            <span class="culture-num">01</span>
+                            <div class="culture-item-body">
+                                <h4>Bhutia Cuisine</h4>
+                                <p>The Bhutia people, of Tibetan descent, bring a cuisine shaped by high-altitude survival and Buddhist values. Their food is warming and hearty — think <strong>momos</strong> (steamed dumplings), <strong>thukpa</strong> (hand-pulled noodle broth), and <strong>Chang</strong> (fermented millet beer). Yak dairy products like <strong>Chhurpi</strong> (hard cheese) and butter tea are everyday staples, reflecting a pastoral lifestyle lived close to the Himalayan peaks.</p>
+                                <span class="culture-tag">Bhutia</span>
+                            </div>
+                        </div>
+
+                        <div class="culture-item">
+                            <span class="culture-num">02</span>
+                            <div class="culture-item-body">
+                                <h4>Lepcha Cuisine</h4>
+                                <p>The Lepchas — Sikkim's indigenous people — are nature's foragers. Their food is intimately tied to the forest: <strong>bamboo shoots</strong>, wild ferns, fermented soybean (<strong>Kinema</strong>), and freshwater fish are the building blocks of their meals. Minimal spicing lets the earthy, natural flavours speak. Lepcha cooking is a direct conversation with the land — slow, seasonal, and deeply sustainable.</p>
+                                <span class="culture-tag">Lepcha</span>
+                            </div>
+                        </div>
+
+                        <div class="culture-item">
+                            <span class="culture-num">03</span>
+                            <div class="culture-item-body">
+                                <h4>Nepali People's Cuisine</h4>
+                                <p>The Nepali community forms the largest group in Sikkim and their food is the heartbeat of everyday life here. <strong>Dal-Bhat-Tarkari</strong> (lentils, rice, curry) anchors every meal. <strong>Sel Roti</strong>, the crispy fried rice bread, graces every festival. <strong>Gundruk</strong> (fermented greens) and <strong>Achar</strong> (pickle) add bold, tangy depth. It is food that feeds families, fuels mountain workers, and unites communities across the hills.</p>
+                                <span class="culture-tag">Nepali</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: 4 Images -->
+                    <div class="culture-images">
+                        <div class="culture-img-grid">
+                            <div class="culture-img-item">
+                                <img src="imgg/Khuri.png" alt="Bhutia Cuisine">
+                                <span class="culture-img-label">Khuri</span>
+                            </div>
+                            <div class="culture-img-item">
+                                <img src="imgg/thali.png" alt="Lepcha Cuisine">
+                                <span class="culture-img-label">Thali</span>
+                            </div>
+                            <div class="culture-img-item">
+                                <img src="imgg/wachipa.jpg" alt="Nepali Cuisine">
+                                <span class="culture-img-label">Wachipa</span>
+                            </div>
+                            <div class="culture-img-item">
+                                <img src="imgg/thonba.png" alt="Sikkimese Food Culture">
+                                <span class="culture-img-label">chyang / tongba</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.culture-layout -->
+
+                <div class="c-bl-h"></div>
+                <div class="c-bl-v"></div>
+                <div class="c-br-h"></div>
+                <div class="c-br-v"></div>
+            </section>
+            <hr class="vu">
+        </div>
+    </section>
+
+    <!----------Local Foods section---------- -->
+
+    <section class="Local-food">
+        <div class="container">
+
+            <section class="corner-section">
+                <div class="c-tl-h"></div>
+                <div class="c-tl-v"></div>
+                <div class="c-tr-h"></div>
+                <div class="c-tr-v"></div>
+                <span class="section-idx">[03]</span>
+
+                <h2>Must Try</h2>
+                <h1>Signature Sikkimese Dishes</h1>
+                <p>Every dish tells a story — of culture, climate, and community.</p>
+
+               
+
+            <!-- Carousel track -->
+            <div class="food-carousel-wrap">
+                <div class="food-carousel-inner">
+                    <div class="food-track">
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/momo.png" alt="Momo">
+                                <span class="food-badge">Steamed</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Momo <span class="food-script">मोमो</span></div>
+                                <div class="food-type">Tibetan · Dumpling</div>
+                                <p class="food-blurb">Juicy dumplings stuffed with spiced meat or veg, served with fiery tomato chutney.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thukpa.png" alt="Thukpa">
+                                <span class="food-badge">Noodle Soup</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Thukpa <span class="food-script">थुक्पा</span></div>
+                                <div class="food-type">Tibetan · Soup</div>
+                                <p class="food-blurb">Hearty noodle broth loaded with vegetables and tender meat — a mountain staple.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/gundruk.png" alt="Gundruk">
+                                <span class="food-badge">Fermented</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Gundruk <span class="food-script">गुन्द्रुक</span></div>
+                                <div class="food-type">Nepali · Pickle</div>
+                                <p class="food-blurb">Fermented leafy greens with a deep tangy punch — eaten as a side or in soups.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/selroti.png" alt="Sel Roti">
+                                <span class="food-badge">Fried Bread</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Sel Roti <span class="food-script">सेल रोटी</span></div>
+                                <div class="food-type">Nepali · Snack</div>
+                                <p class="food-blurb">Crispy ring-shaped rice bread — sweet, airy and best enjoyed with tea or pickle.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thonba.png" alt="Chang">
+                                <span class="food-badge">Traditional Brew</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Chang <span class="food-script">छ्याङ</span></div>
+                                <div class="food-type">Sikkimese · Drink</div>
+                                <p class="food-blurb">Mildly fermented millet or barley beer — sipped through a bamboo straw in festive warmth.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/churpi.png" alt="Chhurpi">
+                                <span class="food-badge">Hard Cheese</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Chhurpi <span class="food-script">छुर्पी</span></div>
+                                <div class="food-type">Himalayan · Dairy</div>
+                                <p class="food-blurb">Sun-dried yak cheese — rock-hard blocks chewed for hours, a high-altitude energy food.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/dhero.png" alt="Dhero">
+                                <span class="food-badge">Comfort Food</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Dhero <span class="food-script">ढिडो</span></div>
+                                <div class="food-type">Nepali · Staple</div>
+                                <p class="food-blurb">Thick millet or buckwheat porridge — slow-cooked and paired with gundruk or curry.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thali.png" alt="Sikkimese Thali">
+                                <span class="food-badge">Full Meal</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Sikkimese Thali <span class="food-script">थाली</span></div>
+                                <div class="food-type">Sikkimese · Multi-course</div>
+                                <p class="food-blurb">A rainbow plate — rice, lentils, seasonal vegetables, pickle, and local greens all at once.</p>
+                            </div>
+                        </a>
+
+                    </div><!-- /.food-track (duplicate for seamless loop) -->
+                    <div class="food-track" aria-hidden="true">
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/momo.png" alt="Momo">
+                                <span class="food-badge">Steamed</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Momo <span class="food-script">मोमो</span></div>
+                                <div class="food-type">Tibetan · Dumpling</div>
+                                <p class="food-blurb">Juicy dumplings stuffed with spiced meat or veg, served with fiery tomato chutney.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thukpa.png" alt="Thukpa">
+                                <span class="food-badge">Noodle Soup</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Thukpa <span class="food-script">थुक्पा</span></div>
+                                <div class="food-type">Tibetan · Soup</div>
+                                <p class="food-blurb">Hearty noodle broth loaded with vegetables and tender meat — a mountain staple.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/gundruk.png" alt="Gundruk">
+                                <span class="food-badge">Fermented</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Gundruk <span class="food-script">गुन्द्रुक</span></div>
+                                <div class="food-type">Nepali · Pickle</div>
+                                <p class="food-blurb">Fermented leafy greens with a deep tangy punch — eaten as a side or in soups.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/selroti.png" alt="Sel Roti">
+                                <span class="food-badge">Fried Bread</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Sel Roti <span class="food-script">सेल रोटी</span></div>
+                                <div class="food-type">Nepali · Snack</div>
+                                <p class="food-blurb">Crispy ring-shaped rice bread — sweet, airy and best enjoyed with tea or pickle.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thonba.png" alt="Chang">
+                                <span class="food-badge">Traditional Brew</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Chang <span class="food-script">छ्याङ</span></div>
+                                <div class="food-type">Sikkimese · Drink</div>
+                                <p class="food-blurb">Mildly fermented millet or barley beer — sipped through a bamboo straw in festive warmth.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/churpi.png" alt="Chhurpi">
+                                <span class="food-badge">Hard Cheese</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Chhurpi <span class="food-script">छुर्पी</span></div>
+                                <div class="food-type">Himalayan · Dairy</div>
+                                <p class="food-blurb">Sun-dried yak cheese — rock-hard blocks chewed for hours, a high-altitude energy food.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/dhero.png" alt="Dhero">
+                                <span class="food-badge">Comfort Food</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Dhero <span class="food-script">ढिडो</span></div>
+                                <div class="food-type">Nepali · Staple</div>
+                                <p class="food-blurb">Thick millet or buckwheat porridge — slow-cooked and paired with gundruk or curry.</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="food-card">
+                            <div class="food-img-wrap">
+                                <img src="imgg/thali.png" alt="Sikkimese Thali">
+                                <span class="food-badge">Full Meal</span>
+                            </div>
+                            <div class="food-info">
+                                <div class="food-name">Sikkimese Thali <span class="food-script">थाली</span></div>
+                                <div class="food-type">Sikkimese · Multi-course</div>
+                                <p class="food-blurb">A rainbow plate — rice, lentils, seasonal vegetables, pickle, and local greens all at once.</p>
+                            </div>
+                        </a>
+
+                    </div><!-- /.food-track duplicate -->
+                </div><!-- /.food-carousel-inner -->
+            </div><!-- /.food-carousel-wrap -->
+
+             <div class="c-bl-h"></div>
+                <div class="c-bl-v"></div>
+                <div class="c-br-h"></div>
+                <div class="c-br-v"></div>
+
+            </section>
+            
+                  <hr class="vu" style="margin-top:4rem;">
+
+        </div>
+    </section>
+
+
+     <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <img src="imgg/cute-monk.png" alt="NASHO Logo" class="footer-logo">
+                    <p>"The articles on this site are written after much research, so if there are any mistakes, we
+                        apologize for that."</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> South, Sikkim, PIN 737126, India</p>
+                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="05666d646b61646b6e6d64696c6b6232456268646c692b666a68">[email&#160;protected]</a></p>
+                    <p><i class="fas fa-phone"></i> +91 - 79087 98052</p>
+                    <p><i class="fas fa-phone"></i> +91 - 89278 65540</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="localresturant.html">Local Restaurant</a></li>
+                        <li><a href="blog.html">Best Place to Travel</a></li>
+                        <li><a href="members.html">Recipe</a></li>
+                        <li><a href="#contact">Local Food Store</a></li>
+                        <li><a href="#contact">Artist</a></li>
+                        <li><a href="#contact">Musician</a></li>
+                        <li><a href="#contact">Local Faces</a></li>
+                        <li><a href="#contact">Fashion</a></li>
+                        <li><a href="#contact">Photography</a></li>
+                        <li><a href="#contact">Music</a></li>
+                        <li><a href="#contact">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <div class="newsletter-form">
+                        <div class="input-group">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" placeholder="Enter your email">
+                            <button type="button"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/qr/OTBWY7E7E6YRA1"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/_drunken_dancer?igsh=MnBhcXJ0ZGpoZGY0"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footers-bottom">
+
+                <p>&copy; 2025 NASHO - All Rights Reserved | Designed & Developed by <a href="#"><span class="dev-credit">Chandan Rai</span></a></p>
+                
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+    <script>
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks   = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Helper — close every open dropdown
+        function closeAllDropdowns(except) {
+            document.querySelectorAll('.dropdown.active').forEach(d => {
+                if (d !== except) d.classList.remove('active');
+            });
+        }
+
+        // Dropdown toggle — works on both desktop and mobile
+        document.querySelectorAll('.dropdown > a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const parent = link.parentElement;
+                const isOpen = parent.classList.contains('active');
+
+                // Close all others first
+                closeAllDropdowns(null);
+
+                // If it was closed, open it; if it was open, leave it closed (toggle)
+                if (!isOpen) {
+                    parent.classList.add('active');
+                }
+            });
+        });
+
+        // Clicking a real link inside a dropdown closes everything + closes mobile menu
+        document.querySelectorAll('.dropdown-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                closeAllDropdowns(null);
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // Clicking a non-dropdown nav link closes mobile menu
+        document.querySelectorAll('.nav-links > li:not(.dropdown) > a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // Click outside — close all dropdowns
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.dropdown')) {
+                closeAllDropdowns(null);
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+
+        // Make entire rest-card clickable (rest-body acts as link)
+        document.querySelectorAll('.rest-card').forEach(card => {
+            card.addEventListener('click', (e) => {
+                // Don't fire if user clicked a tag-pill or existing link inside
+                if (e.target.closest('a, button')) return;
+                const name = card.querySelector('.rest-name')?.textContent?.trim() || '';
+                // Navigate to a detail page (placeholder — update href as needed)
+                window.location.href = `#restaurant-${name.toLowerCase().replace(/\s+/g, '-')}`;
+            });
+        });
+
+        // Restaurant Filtering Logic
+        const filterLinks = document.querySelectorAll('.Links a');
+        const restCards = document.querySelectorAll('.rest-card');
+
+        // Set "All" to be active by default
+        if (filterLinks.length > 0) filterLinks[0].style.backgroundColor = '#1A2730';
+
+        filterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                // Get the filter term
+                let filterText = link.textContent.trim();
+                // Match the label "Veg Only" to the actual tag "Veg"
+                if (filterText === "Veg Only") filterText = "Veg";
+
+                // Reset styling and set currently active link
+                filterLinks.forEach(l => l.style.backgroundColor = '');
+                link.style.backgroundColor = '#1A2730';
+
+                // Filter cards based on their tag pills
+                restCards.forEach(card => {
+                    if (filterText === "All") {
+                        card.style.display = 'flex';
+                        return;
+                    }
+
+                    const tags = Array.from(card.querySelectorAll('.tag-pill')).map(t => t.textContent.trim());
+
+                    if (tags.includes(filterText)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
